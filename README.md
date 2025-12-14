@@ -6,6 +6,8 @@ CSA and DMC implementations in MATLAB (with parallel computing toolbox) are used
 fortranLinear.m evaluates the 4-body potential term for the Ar_2H^+-Ar interaction at 100,000 points: 1,000 different distances and 100 different angles.
 It stores this data as interpolation.mat. In the paper, our interpolation uses 10,000 different distances and 1,000 different angles. 
 
+interpolation.txt contains a Google drive link to the interpolation used in the paper, interpolation.mat (https://drive.google.com/file/d/1RTpr9AMMzGvffZoOfy31XLkDKe_VYC_h/view?usp=drive_link). 
+
 fortranLinearTest.m tests the linear interpolation against the original Fortran implementation of the 4-body Ar_2H^+-Ar interaction term by Maria Judit Montes de Oca-Estevez and Rita Prosmiti.
 
 csa.m finds the global minimum of Ar_nH^+ for n = 3,4,5,...,12, using the many-body potential.
