@@ -21,7 +21,7 @@ In the code, the variable "n" represents the number of particles, which is the n
 dmcread2B.m does the same, starting with the structures found by csa2B.m stored in nArNH+2B and using the 2-body potential.
 
 dmcPlots.m contains the experimental data collected by Florian Foitzik, Elisabeth Gruber, Paul Scheier, and Pablo Villarreal, 
-as well as the potential energy global minima and ground state energies computed by CSA and DMC for the 2-body and many-body potentials.
+the potential energy global minima and ground state energies computed by CSA and DMC for the 2-body and many-body potentials, and the PIMC data by Tomas Gonzalez-Lezana. 
 It plots the experimental data and evaporation energies for Figures 1 and 2 in the paper. 
 
 The directory JuditRita4B contains the global minimum geometries of Ar_nH^+ structures for n = 3,...,57, with distances measured in Bohr radii, using the many-body potential.
