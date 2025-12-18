@@ -27,3 +27,5 @@ It plots the experimental data and evaporation energies for Figures 1 and 2 in t
 The directory JuditRita4B contains the global minimum geometries of Ar_nH^+ structures for n = 3,...,57, with distances measured in Bohr radii, using the many-body potential.
 
 The directory nArNH+2B contains the global minimum geometries of Ar_nH^+ structures for n = 1,...,59, with distances measured in Bohr radii, using the 2-body potential.
+
+sampleRuns.zip contains folders for the outputs of the Matlab scripts given here.
