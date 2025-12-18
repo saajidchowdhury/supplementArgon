@@ -8,7 +8,7 @@ It stores this data as interpolation.mat. In the paper, our interpolation uses 1
 
 interpolation.txt contains a Google drive link to the interpolation used in the paper, interpolation.mat (https://drive.google.com/file/d/1RTpr9AMMzGvffZoOfy31XLkDKe_VYC_h/view?usp=drive_link). 
 
-fortranLinearTest.m tests the linear interpolation against the original Fortran implementation of the 4-body Ar_2H^+-Ar interaction term by Maria Judit Montes de Oca-Estevez and Rita Prosmiti.
+fortranLinearTest.m tests the linear interpolation against the original Fortran implementation of the 4-body Ar_2H^+-Ar interaction term by Maria Judit Montes de Oca-Estevez, Rita Prosmiti, and Pablo Villarreal.
 
 csa.m finds the global minimum of Ar_nH^+ for n = 3,4,5,...,12, using the many-body potential.
 In the code, the variable "n" represents the number of particles, which is the number of argon atoms plus one for the proton. 
@@ -20,7 +20,7 @@ In the code, the variable "n" represents the number of particles, which is the n
 
 dmcread2B.m does the same, starting with the structures found by csa2B.m stored in nArNH+2B and using the 2-body potential.
 
-dmcPlots.m contains the experimental data collected by Florian Foitzik, Elisabeth Gruber, Paul Scheier, and Pablo Villarreal, 
+dmcPlots.m contains the experimental data collected by Florian Foitzik, Elisabeth Gruber, Paul Scheier, 
 the potential energy global minima and ground state energies computed by CSA and DMC for the 2-body and many-body potentials, and the PIMC data by Tomas Gonzalez-Lezana. 
 It plots the experimental data and evaporation energies for Figures 1 and 2 in the paper. 
 
